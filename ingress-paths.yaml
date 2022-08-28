@@ -10,7 +10,7 @@ metadata:
 
 spec:
   rules:
-  - host: www.alexqwinta.net
+  - host: www.alexqwinta.pp.ua
     http:
       paths:
       - path: "/page1"
