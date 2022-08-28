@@ -10,28 +10,28 @@ metadata:
 
 spec:
   rules:
-  - host: www.alexqwinta.net
+  - host: www.alexqwinta.pp.ua
     http:
       paths:
         - backend:
            serviceName: main
            servicePort: 80
 
-  - host: web1.alexqwinta.net
+  - host: web1.alexqwinta.pp.ua
     http:
       paths:
         - backend:
            serviceName: web1
            servicePort: 80
 
-  - host: web2.alexqwinta.net
+  - host: web2.alexqwinta.pp.ua
     http:
       paths:
         - backend:
            serviceName: web2
            servicePort: 80
 
-  - host: cat.alexqwinta.net
+  - host: cat.alexqwinta.pp.ua
     http:
       paths:
         - backend:
